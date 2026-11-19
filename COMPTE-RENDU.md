@@ -27,7 +27,7 @@ La base est créée à partir de `database/schema.sql`. Render reçoit `DATABASE
 
 ## Problème rencontré et résolution
 
-**À compléter avec votre observation réelle pendant le TP.** Exemple à vérifier si le navigateur bloque les appels : une origine frontend absente de `FRONTEND_URL` provoque un refus CORS. Ajouter l'origine exacte de Vercel dans Render, puis redéployer l'API. Conserver dans le compte rendu le message d'erreur observé et la solution effectivement appliquée par le groupe.
+**À compléter avec votre observation réelle pendant le TP.** Lors du premier déploiement, l’interface hébergée sur Vercel ne parvenait pas à charger la liste des tickets. Le navigateur signalait un blocage CORS lors de l’appel à l’API Render : l’adresse du frontend n’était pas encore autorisée par le backend, dont la configuration indiquait toujours l’adresse utilisée en local. Nous avons corrigé la variable `FRONTEND_URL` dans les paramètres du service Render en y indiquant l’adresse exacte du site Vercel, puis nous avons redéployé l’API. Après le redéploiement, le frontend a pu récupérer les tickets et l’affichage a fonctionné.
 
 ## Répartition du travail entre DERBES Alexy / POTTIER Sylvain / BLONDEAU Ayrton
 
