@@ -29,6 +29,6 @@ La base est créée à partir de `database/schema.sql`. Render reçoit `DATABASE
 
 **À compléter avec votre observation réelle pendant le TP.** Exemple à vérifier si le navigateur bloque les appels : une origine frontend absente de `FRONTEND_URL` provoque un refus CORS. Ajouter l'origine exacte de Vercel dans Render, puis redéployer l'API. Conserver dans le compte rendu le message d'erreur observé et la solution effectivement appliquée par le groupe.
 
-## Répartition du travail
+## Répartition du travail entre DERBES Alexy / POTTIER Sylvain / BLONDEAU Ayrton
 
 À compléter avec les noms et contributions réels des membres du groupe : frontend, API, base de données, configuration des déploiements et préparation de la démonstration.
