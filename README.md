@@ -1,4 +1,4 @@
-#GROUPE : Alexy Derbes // Sylvain Pottier // Ayrton Blondeau
+# GROUPE : Alexy Derbes // Sylvain Pottier // Ayrton Blondeau
 
 # Clair — application de suivi des tickets
 
