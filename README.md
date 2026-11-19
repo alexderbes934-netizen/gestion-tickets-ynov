@@ -1,3 +1,5 @@
+GROUPE : Alexy Derbes // Sylvain Pottier // Ayrton Blondeau
+
 # Clair — application de suivi des tickets
 
 Application web trois tiers pour déclarer des demandes informatiques, consulter leur état et suivre leur résolution. Le frontend Vite est hébergé sur Vercel, l'API Express sur Render et les données sont conservées dans PostgreSQL sur Supabase.
