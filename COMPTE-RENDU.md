@@ -31,4 +31,4 @@ La base est créée à partir de `database/schema.sql`. Render reçoit `DATABASE
 
 ## Répartition du travail entre DERBES Alexy / POTTIER Sylvain / BLONDEAU Ayrton
 
-À compléter avec les noms et contributions réels des membres du groupe : frontend, API, base de données, configuration des déploiements et préparation de la démonstration.
+
