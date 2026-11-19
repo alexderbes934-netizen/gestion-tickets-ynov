@@ -31,4 +31,14 @@ La base est créée à partir de `database/schema.sql`. Render reçoit `DATABASE
 
 ## Répartition du travail entre DERBES Alexy / POTTIER Sylvain / BLONDEAU Ayrton
 
+DERBES Alexy — Frontend et interface utilisateur
+Alexy a pris en charge l’interface de l’application : affichage de la liste des tickets, formulaire de création et changement de statut. Il a également relié l’interface aux routes de l’API et participé à la configuration du déploiement frontend sur Vercel.
 
+POTTIER Sylvain — Backend et API
+Sylvain a réalisé l’API chargée de récupérer les tickets, d’en créer et de modifier leur statut. Il s’est occupé de la validation des données, des réponses JSON et de la route /health, puis a participé au déploiement du backend sur Render et à la configuration de ses variables d’environnement.
+
+BLONDEAU Ayrton — Base de données et suivi du déploiement
+Ayrton a préparé le modèle de données PostgreSQL et la table tickets, puis configuré le lien entre la base Supabase et le backend afin d’assurer la persistance des demandes. Il a également contribué au schéma d’architecture, à la documentation du projet et à la vérification du redéploiement après un push sur GitHub.
+
+Travail réalisé en commun
+Les trois membres ont participé à l’intégration des composants et à la vérification des fonctionnalités attendues : consulter les tickets, en créer un, modifier son statut et vérifier que les données restent présentes après actualisation.
